@@ -83,9 +83,9 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+("DATABASE_URL")
 
-
-database_url = os.environ.get("postgres://explainability_user:OG3AKduOBWaEnqpZaO2I1v1yPNlwW0wH@dpg-cpddaffsc6pc738spf10-a.oregon-postgres.render.com/explainability")
+database_url = os.environ.get("")
 DATABASES = {
     'default': dj_database_url.parse(database_url)
 }
